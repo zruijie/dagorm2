@@ -7,7 +7,7 @@ package dm
 import (
 	"bytes"
 	"crypto/tls"
-	"dm/security"
+	"github.com/zruijie/dagorm2/security"
 	"fmt"
 	"net"
 	"strconv"

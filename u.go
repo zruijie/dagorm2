@@ -9,7 +9,7 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/util"
+	"github.com/zruijie/dagorm2/util"
 	"fmt"
 	"io"
 	"math/big"

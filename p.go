@@ -8,7 +8,7 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/i18n"
+	"github.com/zruijie/dagorm2/i18n"
 	"sync"
 )
 

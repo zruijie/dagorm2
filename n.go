@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"context"
 	"database/sql/driver"
-	"dm/util"
+	"github.com/zruijie/dagorm2/util"
 	"net"
 	"net/url"
 	"os"

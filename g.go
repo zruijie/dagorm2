@@ -5,7 +5,7 @@
 package dm
 
 import (
-	"dm/util"
+	"github.com/zruijie/dagorm2/util"
 	"fmt"
 	"math"
 	"os"

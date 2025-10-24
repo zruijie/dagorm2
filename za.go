@@ -7,7 +7,7 @@ package dm
 
 import (
 	"bytes"
-	"dm/i18n"
+	"github.com/zruijie/dagorm2/i18n"
 	"fmt"
 	"runtime"
 )
@@ -47,11 +47,11 @@ var (
 	ECGO_INVALID_TRAN_ISOLATION      = newDmError(6038, "error.invalidTranIsolation")
 	ECGO_COMMIT_IN_AUTOCOMMIT_MODE   = newDmError(6039, "errorCommitInAutoCommitMode")
 	ECGO_ROLLBACK_IN_AUTOCOMMIT_MODE = newDmError(6040, "errorRollbackInAutoCommitMode")
-	ECGO_UNBINDED_PARAMETER			  = newDmError(6054, "error.unbindedParameter")
-	ECGO_PARAM_COUNT_LIMIT			  = newDmError(6056, "error.ParamCountLimit")
+	ECGO_UNBINDED_PARAMETER          = newDmError(6054, "error.unbindedParameter")
+	ECGO_PARAM_COUNT_LIMIT           = newDmError(6056, "error.ParamCountLimit")
 	ECGO_INVALID_LENGTH_OR_OFFSET    = newDmError(6057, "error.invalidLenOrOffset")
 	ECGO_INTERVAL_OVERFLOW           = newDmError(6066, "error.intervalValueOverflow")
-	ECGO_STRING_CUT					  = newDmError(6067, "error.stringCut")
+	ECGO_STRING_CUT                  = newDmError(6067, "error.stringCut")
 	ECGO_INVALID_HEX                 = newDmError(6068, "error.invalidHex")
 	ECGO_INVALID_CIPHER              = newDmError(6069, "error.invalidCipher")
 	ECGO_INVALID_BFILE_STR           = newDmError(6070, "error.invalidBFile")
@@ -74,7 +74,7 @@ var (
 	ECGO_FATAL_ERROR     = newDmError(20004, "error.fatalError")
 )
 
-//Svr Msg Err
+// Svr Msg Err
 var (
 	ECGO_DATA_OVERFLOW       = newDmError(-6102, "error.dataOverflow")
 	ECGO_DATETIME_OVERFLOW   = newDmError(-6112, "error.datetimeOverflow")

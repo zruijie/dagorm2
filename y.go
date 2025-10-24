@@ -7,7 +7,7 @@ package dm
 
 import (
 	"bytes"
-	"dm/util"
+	"github.com/zruijie/dagorm2/util"
 	"math/rand"
 	"sync"
 	"time"

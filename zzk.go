@@ -6,8 +6,8 @@ package dm
 
 import (
 	"bytes"
-	"dm/parser"
-	"dm/util"
+	"github.com/zruijie/dagorm2/parser"
+	"github.com/zruijie/dagorm2/util"
 	"strconv"
 	"strings"
 )
